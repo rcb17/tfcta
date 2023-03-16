@@ -27,6 +27,11 @@ variable "project" {
   default = "proj99"
 }
 
+variable "lab_number"{
+  type = string 
+  default = "lab02"
+}
+
 ## VPC parameters
 variable "vpc_cidr" {
   type    = string
@@ -61,13 +66,11 @@ variable "sec_allowed_external" {
   description = "CIDRs from which access is allowed"
   type        = list(string)
   default     = ["0.0.0.0/0"]
-  # default = ["2.37.1.5/32"]
 }
 
 ## ECS Parameters
 variable "special_port" {
   type        = string
   description = "TCP port where Foobar application listens"
-
 }
 
