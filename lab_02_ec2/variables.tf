@@ -27,7 +27,12 @@ variable "project" {
   default = "proj99"
 }
 
-variable "lab_number"{
+variable "lab_number1"{
+  type = string 
+  default = "lab01"
+}
+
+variable "lab_number2"{
   type = string 
   default = "lab02"
 }
