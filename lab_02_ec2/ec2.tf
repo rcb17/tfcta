@@ -5,9 +5,9 @@ resource "aws_instance" "server1" {
   instance_type = var.instance_type
 
   vpc_security_group_ids = [aws_security_group.sec_web.id]
- 
+
   tags = {
-    Name    = "vm_lab2"
+    Name = "vm_lab2"
   }
 }
 

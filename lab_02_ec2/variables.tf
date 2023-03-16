@@ -66,7 +66,7 @@ variable "sec_allowed_external" {
 
 ## ECS Parameters
 variable "special_port" {
-  type = string
+  type        = string
   description = "TCP port where Foobar application listens"
 
 }
