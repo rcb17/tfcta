@@ -20,6 +20,3 @@ resource "aws_instance" "server2" {
     Name = "vm_lab2"
   }
 }
-
-
-

@@ -20,5 +20,3 @@ resource "aws_instance" "server" {
     Name = "vm-${local.name_suffix}-${count.index}"
   }
 }
-
-
